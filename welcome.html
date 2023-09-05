@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome &#8212; Introduction to Astrophysics</title>
+    <title>The MSc Astrophysics Introductory Notes &#8212; Introduction to Astrophysics</title>
   
   
   
@@ -61,6 +61,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'welcome';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -144,7 +146,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome
+                    The MSc Astrophysics Introductory Notes
                 </a>
             </li>
         </ul>
@@ -317,7 +319,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -328,11 +332,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome</h1>
+    <h1>The MSc Astrophysics Introductory Notes</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#terminology">Terminology</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-units">General units</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -342,9 +356,29 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="tex2jax_ignore mathjax_ignore section" id="welcome">
-<h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this heading">#</a></h1>
-<p>This is a quick summary of basic astronomy and astrophysics, including terminology, to help MSc students new to the discipline to get started.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="the-msc-astrophysics-introductory-notes">
+<h1>The MSc Astrophysics Introductory Notes<a class="headerlink" href="#the-msc-astrophysics-introductory-notes" title="Permalink to this heading">#</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>This is a quick summary of basic astronomy and astrophysics, including terminology, to help MSc students new to the discipline to get started. On this page, you will be introduced to basic terminology, units and symbols that will be used throughout the other pages.</p>
+</div>
+<div class="section" id="terminology">
+<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this heading">#</a></h2>
+<p>Astronomical terminology is famously arcane.
+This is because astronomy is an observational science, so classification was done, and classes were given names, before the objects being classified were understood.
+This is coupled with a reluctance to revise terminology - probably because astronomers, who have to deal with very long timescales, make more use of historical data than typical physicists, and it would be confusing if old papers used different terminology.</p>
+</div>
+<div class="section" id="general-units">
+<h2>General units<a class="headerlink" href="#general-units" title="Permalink to this heading">#</a></h2>
+<p>In contrast to the rest of science, astronomers generally still use cgs units instead of SI.
+This means that you will occasionally encounter some unfamiliar units.
+The most common one is the cgs unit of energy, the <strong>erg</strong>: 1 erg = 1 g cm<span class="math notranslate nohighlight">\(^{2}\)</span> s<span class="math notranslate nohighlight">\(^{-2}\)</span> = <span class="math notranslate nohighlight">\(10^{-7}\)</span> J; for example, the power output of stars is usually quoted in erg s<span class="math notranslate nohighlight">\(^{-1}\)</span> rather than watts.
+You may also encounter the cgs unit of force, the <strong>dyne</strong>: one dyne is <span class="math notranslate nohighlight">\(10^{-7}\)</span> N.</p>
+<p><strong>Be aware that the form of many equations in electromagnetism is different in cgs from the SI version.</strong>
+This should not be important in the astronomy courses you will be taking in your MSc, but if you see a version of Maxwell’s equations that does not look quite as you remember, it is probably in cgs.</p>
+<p>Other non-SI units that you may encounter in astronomy courses are some units of length: the <strong>angstrom</strong> for wavelength (<span class="math notranslate nohighlight">\(1\overset{\circ}{A}\)</span> = 0.1 nm = <span class="math notranslate nohighlight">\(10^{-10}\)</span> m), the <strong>astronomical unit</strong> for distances within a planetary system (1 au is the mean distance between the Earth and the Sun, <span class="math notranslate nohighlight">\(1.496\times10^{11}\)</span> m) and the <strong>parsec</strong> for distances beyond the solar system (1 pc = 206265 au = <span class="math notranslate nohighlight">\(3.086\times10^{16}\)</span> m).
+The parsec takes standard SI prefixes, so you will encounter kpc, Mpc and Gpc, but the other two do not.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -387,6 +421,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#terminology">Terminology</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-units">General units</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
